@@ -29,5 +29,14 @@ Introducing the Restaurant App, a visually stunning and user-friendly applicatio
 5. Open your web browser and visit http://localhost:3000 to access the Bay-Restaurant app.
 
 
+# Technologies Used
+1. JavaScript
+2. Node.js
+3. Express.js
+4. HTML
+5. CSS
+6. EJS
+
+   
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request.
