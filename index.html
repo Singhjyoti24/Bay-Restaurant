@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <!-- jQuey cdn -->
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Combo&family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/responsive.css" />
+    <!-- Place your kit's code here -->
+    <script
+      src="https://kit.fontawesome.com/304cf095a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bay Restaurant</title>
+  </head>
+  <body style="overflow-x: hidden">
+    <nav class="nav-bar">
+      <span class="logo">
+        <i class="fa-solid fa-utensils fa-fade fa-3x"></i>
+      </span>
+      <div class="nav-list">
+        <ul class="list-items">
+          <li><a href="/">Home</a></li>
+          <li><a href="#menu">Our menu</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
+      </div>
+      <a href="" class="log">Log in/Signup</a>
+    </nav>
+
+    <section class="main-content">
+      <div class="main-img">
+        <div class="main-txt">
+          <div class="head">
+            <h1 class="heading">Grill & Chill</h1>
+          </div>
+          <p class="text-change">Unexpected guests?</p>
+          <div class="button-center">
+            <button type="submit" class="btn btns">
+              <a href="order" class="btnsty">Order food</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-content2" id="home">
+      <div class="icons">
+        <div class="icon1">
+          <i class="fa-solid ch fa-thumbs-up fa-5x"></i>
+          <p class="ic-midhead">No Minimum Order</p>
+          <p class="ic-mid">
+            Order in for yourself or for the group, with no restrictions on
+            order value
+          </p>
+        </div>
+        <div class="icon2">
+          <i class="fa-solid ch fa-location-dot fa-5x"></i>
+          <p class="ic-midhead">Live Order Tracking</p>
+          <p class="ic-mid">
+            Know where your order is at all times, from the restaurant to your
+            doorstep
+          </p>
+        </div>
+        <div class="icon3">
+          <i class="fa-solid ch fa-truck-fast fa-5x"></i>
+          <p class="ic-midhead">Lightning-Fast Delivery</p>
+          <p class="ic-mid">
+            Experience our superfast delivery for food delivered fresh & on time
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-content3">
+      <div class="pocket">
+        <div class="side-text">
+          <div class="side-head">
+            <p>Restaurant in your pocket</p>
+          </div>
+          <div class="side-para">
+            <p>
+              Order from us & track on the go, with all new Grill & Chill app.
+            </p>
+          </div>
+        </div>
+        <div class="side-img">
+          <img src="./images/mobile.png" alt="mobile" />
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h3 class="menu-head">Our Menu</h3>
+      <div class="underline">
+        <hr class="line" />
+      </div>
+      <div class="cuisine">
+        <div class="head-cuisine">
+          <div class="breakfast dish">
+            <a href="breakfast">BREAKFAST</a>
+          </div>
+          <div class="lunch dish">
+            <a href="lunch">LUNCH</a>
+          </div>
+          <div class="dinner dish">
+            <a href="dinner">DINNER</a>
+          </div>
+        </div>
+        <br />
+        <div class="menu-items">
+          <div class="card" style="width: 18rem">
+            <img
+              src="/images/breakfast.jpg"
+              class="card-img-top"
+              alt="breakfast"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                A Good breakfast is a motivation for the day!
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="/images/lunch.cms" class="card-img-top" alt="dinner" />
+            <div class="card-body">
+              <p class="card-text">All you need is Lunch!</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="/images/dinner.jpg" class="card-img-top" alt="dinner" />
+            <div class="card-body">
+              <p class="card-text">
+                Dinner is where the magic happens in the kitchen!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h3>Get in Touch</h3>
+      <p class="sugg">Suggestions are welcome</p>
+      <form action="/" method="post">
+        <div class="contact-box">
+          <input
+            class="con-name"
+            type="text"
+            name="name"
+            placeholder="Name"
+          /><br />
+          <input
+            class="con-email"
+            type="email"
+            name="email"
+            placeholder="Email"
+          /><br />
+          <textarea
+            class="con-msg"
+            name="sugg-box"
+            cols="80"
+            rows="10"
+            placeholder="Message here"
+          ></textarea
+          ><br />
+          <button type="submit" class="btn btns">Submit</button>
+        </div>
+      </form>
+    </section>
+    <hr />
+
+    <footer>Copyright © 2023</footer>
+    <script src="/index.js"></script>
+    <script src="/animate.js"></script>
+  </body>
+</html>

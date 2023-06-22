@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Cinzel", serif;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.nav-bar {
+    display: flex;
+    background-color: #f9f2ed;
+    color: #282c3f;
+    position: sticky;
+}
+
+.logo {
+    width: 30%;
+    font-size: 1em;
+    color: #fc8019;
+}
+
+.nav-list {
+    width: 70%;
+    padding-top: 1em;
+}
+
+.list-items {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 0.9em;
+}
+
+.log{
+    margin-right: 2em;
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #393b44;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #fc8019;
+}
+
+/* Main image home */
+.main-img {
+    background-image: linear-gradient(rgba(0, 0.2, 0, 0.3), rgba(0, 0.2, 0, 0.3)),
+        url("./images/jed-owen-q6Y8Xr3SoQA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Add the blur effect  */
+.blur {
+    filter: blur(0.8px);
+    -webkit-filter: blur(0.8px);
+}
+
+.main-txt {
+    color: #eeeeee;
+}
+
+/* Grill & Chill heading */
+.heading {
+    font-size: 4em;
+    padding: 13% 0% 1% 0%;
+}
+
+/* Changing sub-heading */
+.text-change {
+    font-size: 1.6em;
+    padding-bottom: 0.5%;
+}
+
+.head,
+.text-change,
+.button-center,
+.side-head,
+.side-para,
+.time,
+.head-order,
+.menu-head,
+.underline,
+.button-dish {
+    display: flex;
+    justify-content: center;
+}
+
+/* Order food button */
+.btn {
+    background: #ffb200;
+    background-image: -webkit-linear-gradient(top, #ffb200, #ef4f5f);
+    background-image: -moz-linear-gradient(top, #ffb200, #ef4f5f);
+    background-image: -ms-linear-gradient(top, #ffb200, #ef4f5f);
+    background-image: -o-linear-gradient(top, #ffb200, #ef4f5f);
+    background-image: linear-gradient(to bottom, #ffb200, #ef4f5f);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 18px;
+    padding: 7px 10px 7px 10px;
+    border-color: #000000;
+}
+
+.btnsty {
+    color: #000000;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+/* Hovering effect on order food button */
+.btn:hover {
+    background: #ef4f5f;
+    background-image: -webkit-linear-gradient(top, #ef4f5f, #ffb200);
+    background-image: -moz-linear-gradient(top, #ef4f5f, #ffb200);
+    background-image: -ms-linear-gradient(top, #ef4f5f, #ffb200);
+    background-image: -o-linear-gradient(top, #ef4f5f, #ffb200);
+    background-image: linear-gradient(to bottom, #ef4f5f, #ffb200);
+    cursor: pointer;
+}
+
+.btns {
+    margin: 0.5% 0% 4% 0%;
+}
+
+/* Main Content-2 starts */
+.main-content2 {
+    background-color: #f9f2ed;
+}
+
+.icons {
+    padding: 5% 0% 5% 0%;
+    display: flex;
+    color: #fc8019;
+    width: 100%;
+}
+
+.icons div {
+    width: 33.33%;
+    padding: 0% 0% 0% 5%;
+}
+
+.icons i {
+    padding-bottom: 0.3em;
+}
+
+.ic-midhead {
+    font-size: medium;
+    font-weight: bolder;
+    margin-bottom: 0.8em;
+    color: #000000;
+    font-stretch: extra-expanded;
+}
+
+.ic-mid {
+    width: 80%;
+    color: #fac669;
+    font-weight: 600;
+    font-size: 0.7em;
+    font-stretch: extra-expanded;
+}
+
+/* Restaurant in your pocket starts */
+.pocket {
+    display: flex;
+    width: 100%;
+}
+
+.side-text {
+    width: 80%;
+    padding: 18% 0% 0% 0%;
+}
+
+.side-head {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #282c3f;
+}
+
+.side-para,
+.sugg {
+    font-size: 1em;
+    color: #7e808c;
+}
+
+/* Order food css starts */
+.bor {
+    background-image: linear-gradient(300deg, #ff7f3f, #f94892);
+    background-repeat: no-repeat;
+}
+
+.head-order {
+    padding-top: 2%;
+    font-size: 2.5em;
+}
+
+.time {
+    color: #393b44;
+}
+
+.list-order {
+    margin-top: 2.5em;
+    padding: 0% 0% 0% 35%;
+}
+
+.val {
+    font-size: large;
+}
+
+.box {
+    border-radius: 3em;
+    border-color: #000000;
+    height: 2.5em;
+    width: 50%;
+    margin: 0.5em 0em 0.5em 0em;
+    padding-left: 1em;
+}
+
+/* Menu css begins */
+.menu {
+    background-image: linear-gradient(180deg, #f9f2ed, #f29b85);
+    padding-bottom: 3%;
+}
+
+.menu-head {
+    font-family: "Dancing Script", cursive;
+    padding-top: 3%;
+    font-size: 4em;
+}
+
+.line {
+    height: 0.12em;
+    width: 13%;
+    background-color: #ffb200;
+    margin-bottom: 3%;
+    border-radius: 3em;
+}
+
+.line-change {
+    width: 5%;
+}
+
+.dish a {
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+.dish a:hover {
+    cursor: pointer;
+}
+
+.head-cuisine,
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 2em;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5em;
+}
+
+/* Contact us CSS begins */
+.contact {
+    background-image: linear-gradient(rgba(0, 0.2, 0, 0.3), rgba(0, 0.2, 0, 0.3)),
+        url("./images/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2em;
+}
+
+.contact h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.sugg {
+    padding-bottom: 2em;
+}
+
+.contact form {
+    display: flex;
+    justify-content: center;
+}
+
+.con-email,
+.con-name {
+    width: 40em;
+    height: 3em;
+    border-radius: 5em;
+    border-color: #000000;
+    margin-bottom: 2em;
+    padding-left: 1em;
+}
+
+.con-msg {
+    border-radius: 2em;
+    border: 2px solid black;
+    margin-bottom: 2em;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f2ed;
+}
+
+/* wrap checkbox in order.ejs */
+.wrap-checkbox{
+    padding-top: 0.5em;
+    display: flex;
+    width: 70%;
+}

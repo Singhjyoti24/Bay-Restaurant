@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/responsive.css" />
+    <title>Chill & Grill Orders</title>
+  </head>
+  <body class="bor">
+    <h1 class="head-order">Order your favourite cuisines</h1>
+    <div class="time">
+      <p>We have value for time and money!</p>
+    </div>
+    <form action="/order" method="post">
+      <div class="list-order">
+        <label for="" class="val">Name:</label><br />
+        <input type="text" name="name" class="box" /><br />
+        <label for="" class="val">Email:</label><br />
+        <input type="email" name="email" class="box" /><br />
+        <label for="" class="val">Address:</label><br />
+        <input type="text" name="address" class="box" /><br />
+        <label for="" class="val">Mobile no.</label><br />
+        <input type="number" name="number" class="box" /><br />
+        <label for="" class="val">Select your order here:</label><br />
+        <div class="wrap-checkbox">
+          <div class="breakfast-order">
+            <input
+              type="checkbox"
+              id="foodb1"
+              name="foodb1"
+              value="Masala Dosa"
+            />
+            <label for="foodb1" class="b1 food-items"> Masala Dosa</label><br />
+            <input
+              type="checkbox"
+              id="foodb2"
+              name="foodb2"
+              value="Ham Burger"
+            />
+            <label for="foodb2" class="b2 food-items"> Ham Burger</label><br />
+            <input
+              type="checkbox"
+              id="foodb3"
+              name="foodb3"
+              value="Aloo Paratha"
+            />
+            <label for="foodb3" class="b3 food-items"> Aloo Paratha</label><br />
+            <input
+              type="checkbox"
+              id="foodb4"
+              name="foodb4"
+              value="Egg Omlette"
+            />
+            <label for="foodb4" class="b4 food-items"> Egg Omlette</label><br />
+            <input
+              type="checkbox"
+              id="foodb5"
+              name="foodb5"
+              value="Cheese Sandwich"
+            />
+            <label for="foodb5" class="b5 food-items"> Cheese Sandwich</label><br />
+            <input
+              type="checkbox"
+              id="foodb6"
+              name="foodb6"
+              value="Idli Sambhar"
+            />
+            <label for="foodb6" class="b6 food-items"> Idli Sambhar</label><br />
+            <input
+              type="checkbox"
+              id="foodb7"
+              name="foodb7"
+              value="Paneer Tikka"
+            />
+            <label for="foodb7" class="b7 food-items"> Paneer Tikka</label><br />
+            <input type="checkbox" id="foodb8" name="foodb8" value="Salad" />
+            <label for="foodb8" class="b8 food-items"> Salad</label><br />
+            <input
+              type="checkbox"
+              id="foodb9"
+              name="foodb9"
+              value="Spring Roll"
+            />
+            <label for="foodb9" class="b9 food-items"> Spring Roll</label><br />
+            <br />
+          </div>
+          <div class="lunch-order">
+            <input
+              type="checkbox"
+              id="foodl1"
+              name="foodl1"
+              value="Paneer Bhurji"
+            />
+            <label for="foodl1"> Paneer Bhurji</label><br />
+            <input
+              type="checkbox"
+              id="foodl2"
+              name="foodl2"
+              value="Chilli Paneer"
+            />
+            <label for="foodl2"> Chilli Paneer</label><br />
+            <input
+              type="checkbox"
+              id="foodl3"
+              name="foodl3"
+              value="Chicken Curry"
+            />
+            <label for="foodl3"> Chicken Curry</label><br />
+            <input
+              type="checkbox"
+              id="foodl4"
+              name="foodl4"
+              value="Egg fried Rice"
+            />
+            <label for="foodl4"> Egg fried Rice</label><br />
+            <input
+              type="checkbox"
+              id="foodl5"
+              name="foodl5"
+              value="Mutton Curry"
+            />
+            <label for="foodl5"> Mutton Curry</label><br />
+            <input type="checkbox" id="foodl6" name="foodl6" value="Biriyani" />
+            <label for="foodl6"> Biriyani</label><br />
+            <input
+              type="checkbox"
+              id="foodl7"
+              name="foodl7"
+              value="Sahi Paneer"
+            />
+            <label for="foodl7"> Sahi Paneer</label><br />
+            <input
+              type="checkbox"
+              id="foodl8"
+              name="foodl8"
+              value="Fish Curry"
+            />
+            <label for="foodl8"> Fish Curry</label><br />
+            <input
+              type="checkbox"
+              id="foodl9"
+              name="foodl9"
+              value="Kadai Paneer"
+            />
+            <label for="foodl9"> Kadai Paneer</label><br />
+            <br />
+          </div>
+
+          <div class="dinner-order">
+            <input
+              type="checkbox"
+              id="foodd1"
+              name="foodd1"
+              value="Rogan Josh"
+            />
+            <label for="foodd1"> Rogan Josh </label><br />
+            <input
+              type="checkbox"
+              id="foodd2"
+              name="foodd2"
+              value="Matar Paneer"
+            />
+            <label for="foodd2"> Matar Paneer</label><br />
+            <input type="checkbox" id="foodd3" name="foodd3" value="Mix Veg" />
+            <label for="foodd3"> Mix Veg</label><br />
+            <input
+              type="checkbox"
+              id="foodd4"
+              name="foodd4"
+              value="Paneer Butter Masala"
+            />
+            <label for="foodd4"> Paneer Butter Masala</label><br />
+            <input
+              type="checkbox"
+              id="foodd5"
+              name="foodd5"
+              value="Chicken Biriyani"
+            />
+            <label for="foodd5"> Chicken Biriyani</label><br />
+            <input
+              type="checkbox"
+              id="foodd6"
+              name="foodd6"
+              value="Egg bhurji"
+            />
+            <label for="foodd6"> Egg bhurji</label><br />
+            <input
+              type="checkbox"
+              id="foodd7"
+              name="foodd7"
+              value="Paneer Tikka"
+            />
+            <label for="foodd7"> Paneer Tikka</label><br />
+            <input
+              type="checkbox"
+              id="foodd8"
+              name="foodd8"
+              value="Fried Dal"
+            />
+            <label for="foodd8"> Fried Dal</label><br />
+            <input
+              type="checkbox"
+              id="foodd9"
+              name="foodd9"
+              value="Special Dinner"
+            />
+            <label for="foodd9">Special Dinner</label><br />
+            <br />
+          </div>
+        </div>
+        <button type="submit" class="btn btns">Submit</button><br />
+      </div>
+    </form>
+    <script src="/index.js"></script>
+  </body>
+</html>

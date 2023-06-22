@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Dancing Script", cursive;
+}
+
+header {
+    display: flex;
+    margin: 0.3em 0em 0.8em 0em;
+    justify-content: center;
+    font-size: 3em;
+}
+
+body {
+    background-image: linear-gradient(180deg, #f9f2ed, #f29b85);
+}
+
+.menu-items {
+    margin-left: 4%;
+}
+
+.card {
+    display: inline-block;
+    width: 33%;
+}
+
+.menu-img img {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 73%;
+}
+
+.menu-text {
+    margin: 1em 0em 1.5em 5em;
+}
